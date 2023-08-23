@@ -2,6 +2,12 @@ server:
 	npm run server
 
 # CRUD commands
+crud:
+	make get
+	make set
+	make update
+	make delete
+
 get:
 	curl http://localhost:5000/api/goals
 set:
